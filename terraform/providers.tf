@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.1.6"
+  #   required_version = ">= 1.1.6"
   backend "s3" {
     bucket = "mgc-terra-state"
     key    = "mgc-lovely-bucket"
