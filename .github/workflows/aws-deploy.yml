@@ -9,6 +9,11 @@ jobs:
   tf_fmt:
     name: Deploy Site
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: 'terraform'
+
     steps:
 
     - name: Checkout Repo
