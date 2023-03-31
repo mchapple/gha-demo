@@ -13,6 +13,7 @@ jobs:
 
     - name: Checkout Repo
       uses: actions/checkout@v1
+    - run: echo "The repo was checked out"
 
     - name: Terraform Init
       uses: hashicorp/terraform-github-actions/init@v0.4.0
