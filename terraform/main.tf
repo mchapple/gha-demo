@@ -1,7 +1,6 @@
 locals {
-  bucket_name = "mgc-website-bucket"
+  bucket_name = "mgc-other-website-bucket"
 }
-
 resource "aws_s3_bucket" "s3Bucket" {
   bucket = local.bucket_name
   acl    = "public-read"
